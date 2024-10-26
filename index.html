@@ -1,0 +1,399 @@
+<html>
+  <head>
+    <title> Portfolio  </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!--- Bootstrap 5 CSS link --->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--- Font Awesom CSS link --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--- Google Font Family --->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ 	<!--- Live Jquery URL--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--- Bootstrap 5 Jquery URL--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--- Owl Carousel Js And CSS For Testimonial Slider--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <!--- style.css, where we will write our custom css--->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+	<!--- LOGO, MENU AND ABOUT DETAILS SECTION --->
+  <section id="home">
+    <div class="container-fluid bg-image">
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+                <source src="video.mp4" type="video/mp4">
+              </video>
+              <nav class="navbar">
+                <div class="navbar-brand">My<span class="gold">Portfolio</span></div>
+                <div class="navbar-toggler" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="navbar-menu" id="navbarMenu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#projectss">Projects</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <div class="about-detail" >
+                <h5>Hello,</h5>
+                <h1>I'm <span class="gold">Akash</span> Rajan </h1>
+                <p class="typing">I Am web <span class="gold">Developer|</span>
+                </p>
+                <a href=""><button>MY CV <i class="fa fa-arrow-right"></i></a>
+                </button>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+        <!---ABOUT US SECTION ABOUT US SECTION ABOUT US SECTION  -->
+      <section id="about">
+  <div class="container-fluid bg-color">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-12">
+          <div class="about-right">
+            
+            <h2>About Me</h2>
+            <h6>I am web designer</h6>
+            <p>I <span>design and develop</span> Hello, I’m Akash Rajan and I work as a web developer. I have been working as a web developer for quite some time now. I believe I am a very ambitious person who loves to work on making the website work well. Working on the web is my passion as I love to work on exciting projects. This is the field I get to express my creativity. I would love to work in your esteemed organisation. This is all about me. Thanks for interviewing me.  </p>
+            <div class="row">
+              <div class="col-md-6">
+                <table>
+                  <tr>
+                    <th>Birthday :</th>
+                    <td>/ 30 December 2001</td>
+                  </tr>
+                  <tr>
+                    <th>Age :</th>
+                    <td>/ 22 Yr</td>
+                  </tr>
+                  <tr>
+                    <th>Residence :</th>
+                    <td>/ Tamilnadu</td>
+                  </tr>
+                  <tr>
+                    <th>Address :</th>
+                    <td>/ Tiruppur</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="col-md-6">
+                <table>
+                  <tr>
+                    <th>Email :</th>
+                    <td>/ rajanakash331@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th>Phone :</th>
+                    <td>/ 9345417496</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-4 col-12">
+          <div class="about-left">
+            <img src="WhatsApp_Image_2024-10-14_at_9.44.37_AM-removebg-preview.png" >
+          </div>
+        </div>
+        <div id="formContainer" style="display:none;">
+          <button id="close">X</button>
+          <iframe id="youtubeVideo" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <button id="showForm">Youtube video</button>
+      
+        
+      </div>
+    </div>
+  </div>
+      </section>
+  <!--------------SKILL SECTION SKILL SECTION SKILL SECTION ------------->
+  <section id="skill">
+<div class="container-fluid about-skill" id="skill">
+    <div class="container" >
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-md-6">
+          
+          <p>I <span>design and develop webpage</span>Programming generally results in a specific set of actions or the creation of a tangible result, whether it is a software application, a web page, or even an image displayed on a computer screen. Computer programmer skills often combine creativity with technical and analytical elements. In many ways, programming represents a <span>perfect merging of art and science.</span> </p>
+        </div>
+        <div class="col-lg-5 col-md-6">
+          <div class="skill-section">
+            <p>HTML</p>
+            <span>95%</span>
+          </div>
+          <div class="skill-experience">
+            <span style="width:95%"></span>
+          </div>
+          <div class="skill-section">
+            <p>JAVA</p>
+            <span>65%</span>
+          </div>
+          <div class="skill-experience">
+            <span style="width:65%"></span>
+          </div>
+          <div class="skill-section">
+            <p>JAVASCRIPT</p>
+            <span>79%</span>
+          </div>
+          <div class="skill-experience">
+            <span style="width:79%"></span>
+          </div>
+          <div class="skill-section">
+            <p>CSS</p>
+            <span>89%</span>
+          </div>
+          <div class="skill-experience">
+            <span style="width:89%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+   <!--- PROJECT SECTION PORTFOLIO SECTION PORJECT SECTION --->
+   <section id="projectss">
+ <div class="container-fluid pb-100" >
+    <div class="containerp" >
+      <div class="row">
+        <div class="col-12">
+          <div class="heading-section">
+            <h2>Project</h2>
+            <div class="heading-borders">
+              <span class="selected"></span>
+            </div>
+            <p>Projects are often described and delegated by a manager or executive. <br>They go over their expectations and goals, and it's up to the team to manage logistics and execute the project on time </p>
+          </div>
+        </div>
+      </div>
+      <div class="row1">
+        <div class="card"  >
+          <img src="project1.jpg" class="card-img-top" alt="..."  >
+          <div class="card-body">
+            <h5 class="card-title">WEEK1</h5>
+            <a href="https://github.com/AkashRajan-coder/Ball.git" class="btn btn-primary">Github</a>
+            <a href="https://akashrajan-coder.github.io/Ball/" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project2.jpg" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <h5 class="card-title">WEEK2</h5>
+            <a href="https://github.com/AkashRajan-coder/muiti-ball.git" class="btn btn-primary">Github</a>
+            <a href="https://akashrajan-coder.github.io/muiti-ball/" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project3.png" class="card-img-top" alt="..."  >
+          <div class="card-body">
+            <h5 class="card-title">WEEK3</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WEEK4</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WEEK5</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WEEK6</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project7.jpg" class="card-img-top" alt="..." height="20px">
+          <div class="card-body">
+            <h5 class="card-title">WEEK7</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WEEK8</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="project9.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WEEK9</h5>
+            <a href="#" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary">Live</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+  <!-------------- CONTACT US SECTION CONTACT US SECTION ------------->
+  <section id="contact">
+<div class="container-fluid pb-100">
+    <div class="container" id="Contact">
+      <div class="row">
+        <div class="col-12">
+          <div class="heading-section">
+            <h2>Let's work together?</h2>
+            <div class="heading-borders">
+              <span class="selected"></span>
+            </div>
+            <p> I'm looking forward to it too! It's always great to have something to look forward to <br> and I'm excited to experience whatever it may be. </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-7 col-12 contact-form">
+          <h2>Get in Touch</h2>
+          <div class="row">
+            <div class="col-md-6 col-12 mt-4">
+              <input type="text" id="name" class="form-control" placeholder="Enter Name...">
+            </div>
+            <div class="col-md-6 col-12 mt-4">
+              <input type="text" id="email" class="form-control" placeholder="Enter Email...">
+            </div>
+            <div class="col-12 mt-4">
+              <input type="text" id="subject" class="form-control" placeholder="Enter Subject...">
+            </div>
+            <div class="col-12 mt-4">
+              <textarea id="message" class="form-control" placeholder="Enter Comment..."></textarea>
+            </div>
+            <div class="col-12 mt-4">
+              <button type="button" class="btns" onclick="sendEmail()">Send Me</button>
+              <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+              <script>
+                function sendEmail() {
+                  (function() {
+                    emailjs.init("0pTaPdz2q0kDUeX6N"); // EmailJS public key
+                  })();
+                  
+                  var serviceID = "service_aq2c1ye"; // Email service ID
+                  var templateID = "template_r493mz9"; // Email template ID
+                  
+                  // Collect data from the form fields
+                  var params = {
+                    sendername: document.querySelector("#name").value,
+                    senderemail: document.querySelector("#email").value,
+                    subject: document.querySelector("#subject").value, // Collect subject
+                    message: document.querySelector("#message").value,
+                    to_email: "rajanakash331@gmail.com" // Recipient email
+                  };
+                  
+                  // Send email using EmailJS
+                  emailjs.send(serviceID, templateID, params)
+                    .then(res => {
+                      alert('Thank you, ' + params['sendername'] + '! Your message has been sent.');
+                    })
+                    .catch(err => {
+                      alert('Failed to send message. Please try again later.');
+                      console.error('EmailJS Error:', err);
+                    });
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-5 contact-info">
+          <div class="col-12">
+            <h4>E-Mail :</h4>
+            <p> rajanakash331@gmail.com  </p>
+          </div>
+          <div class="col-12">
+            <h4>Address :</h4>
+            <p> saranamyappa nagar, <br> Muthanampalyam,Tiruppur </p>
+          </div>
+          <div class="col-12">
+            <h4>Phone :</h4>
+            <p>+91 9345417496<br> 9943993269. </p>
+          </div>
+          <div class="col-12">
+            <a href="#" target="_blank">
+              <i class="fa fa-facebook"> </i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-youtube"> </i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-linkedin"> </i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-instagram"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--------FOOTER SECTION FOOTER SECTION FOOTER SECTION --------->
+<div class="container-fluid footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-5 col-12">
+          <div class="footer-section">
+            <a href="#" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7 col-12">
+          <p>Copyright © 2022 All Rights Reserved Akash Rajan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="main.js"></script>
+  </body>
+</html>
